@@ -27,7 +27,7 @@ class zibal:
 
     def postTo(self, path, parameters):
 
-        url = "https://gateway.zibal.ir/" + path
+        url = "https://gateway.zibal.ir/v1/" + path
 
         response = requests.post(url = url, json= parameters)
 
